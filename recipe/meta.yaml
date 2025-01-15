@@ -1,5 +1,5 @@
 {% set name = "eerepr" %}
-{% set version = "0.0.4" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eerepr-{{ version }}.tar.gz
-  sha256: 920cccbe498b2880f42ed39a2db8945f705b1497523c48b8d392c5380d511926
+  sha256: a3c6f4d94ee19374aea2ff7ae9f2471f06649be5e18f9cb1cced8a00c2c20857
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:

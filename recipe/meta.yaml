@@ -18,8 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - hatchling
-    - setuptools-scm
+    - uv-build
   run:
     - python >={{ python_min }}
     - earthengine-api

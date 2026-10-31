@@ -1,5 +1,5 @@
 {% set name = "eerepr" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/eerepr-{{ version }}.tar.gz
-  sha256: 6b686643e3050cbc1892e0063dc6e238402397685123e09768be16e1f1fb7a94
+  sha256: a3c1ef344491c45eb1315565a405dda601eafebfbafad885a1b256806a07269e
 
 build:
   noarch: python
